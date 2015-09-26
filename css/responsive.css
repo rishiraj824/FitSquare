@@ -1,0 +1,160 @@
+@media screen and (max-width: 768px){
+	.phonemain{
+		margin-top: 20px;
+	} 
+	
+	.download{
+		padding: 60px;
+	}
+	.playstore{
+		margin-top: 0px !important;
+	}
+	.footer{
+        margin: 0px !important;
+    }
+    .phonemain{
+    	padding: 40px;
+    	margin-top:10px !important;
+    }
+    .upper{
+        margin-top: 15px;
+    }
+    #first{
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+
+    }
+    #cd-vertical-nav{
+        display: none;
+    }
+    #second{
+    	padding-top: 40px;
+    	padding-bottom: 35px;
+
+    }
+    #third{
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+
+    }
+    #fourth{
+    	padding-top: 20px;
+    	padding-bottom:4px;
+
+    }
+    .playstore{
+        display: none;
+    }
+    h3{
+    	font-size: 1em !important;
+    }
+    h2{
+        font-size: 1.4em !important;
+    }
+    h4{
+    	font-size: 1.3em !important;
+    }
+    h5{
+    	font-size: 1.275em !important;
+    }
+    p{
+    	font-size: 0.8em !important;
+    }
+    a{
+    	font-size: 0.8em !important
+    }
+    .thirddesc{
+    	margin: 0px !important;
+    }
+    .fourthdesc{
+    	margin: 0px !important;
+    }
+    .secdesc{
+    	margin: 0px !important;
+    }
+    
+    .bottomnav{ 
+        font-size: 0.6em;
+    }
+    svg{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+	.phonemain{
+		margin-top: 30px;
+		padding: 20px;
+	} 
+	.footer  a{
+	font-size: 1em;
+
+    }
+    .playstore{
+        display: none;
+    }
+    #cd-vertical-nav{
+        display: none;
+    }
+    .footer{
+
+        margin-top: 10px !important;
+    }
+    svg{
+        display: none;
+    }
+   
+    #cd-vertical-nav {
+		  right: 30px;
+	}
+    .thirddesc{
+    	margin: 0px !important;
+    }
+    #first{
+    	padding-top: 20px;
+    	padding-bottom: 20px;
+
+    }
+    #second{
+    	padding-top: 40px;
+    	padding-bottom: 35px;
+
+    }
+    #third{
+    	padding-top: 40px;
+    	padding-bottom: 35px;
+
+    }
+    #fourth{
+    	padding-top: 30px;
+    	padding-bottom: 10px;
+
+    }
+    h3{
+    	font-size: 1.8em !important;
+    }
+    h2{
+        font-size: 2em !important;
+    }
+    h4{
+    	font-size: 1.6em !important;
+
+    }
+    h5{
+    	font-size: 1.4em !important;
+    }
+    p{
+    	font-size: 1em !important;
+
+    }
+    .fourthdesc{
+    	margin: 0px !important;
+    }
+    .secdesc{
+    	margin: 0px !important;
+    }
+    .bottomnav{
+    	font-size: 1.2em;
+    }
+}

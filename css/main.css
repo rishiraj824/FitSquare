@@ -1,0 +1,294 @@
+body{
+	background-color:#1c262f  !important;
+	height: 100% !important;
+	font-family: Lato , 'sans-serif' !important;
+}
+
+.phonemain{
+	margin-top: 100px;
+
+} 
+.playstore{
+	margin-top: -20px;
+}
+.playstore a:hover{
+
+}
+#first{
+    min-height: 100vh;
+    position: relative;	
+	text-align: center;
+	overflow: hidden;
+
+}
+#bg{
+	width: auto;
+	height: auto;
+
+}
+.content{
+	position: relative;
+		width: 100%;
+	z-index: 8;
+}
+.upper{
+	margin-top: 50px;	
+	
+}
+#first p {
+	color: #a8a7aa;
+	font-size: 16px;
+}
+#first h1{
+	color: white;
+}
+#first h3{
+	color: #ed1850;
+}
+.description{
+	margin-top: 60px;
+	line-height: 10px;
+}
+#bg{
+	width: 100%;
+}
+#bg_container{ height:100%; overflow:hidden; position: fixed;z-index: 1;opacity: 0.2; width: 100%; }
+.overlay {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: .4;
+}
+
+/*Second slide*/
+#second{
+	padding-top: 90px;
+	padding-bottom: 80px;
+	background-color: #33245f;
+	width: 100%;
+	position: relative;
+	opacity: 0.9;
+	height: 200%;
+	top: -100%;
+
+	
+}
+
+#second h2{
+	color: white;
+}
+#second h4{
+	color: #ed1850;
+}
+#second p{
+	color: #a8a7aa;
+}
+.secdesc{
+	text-align: center;
+	margin-top: 80px;
+	margin-left: -80px;
+	
+
+}
+/*Third Slide*/
+#third h3{
+	color: white;
+}
+#third{
+	min-height: 100%;
+	position: relative;	
+	padding-top: 80px;
+	padding-bottom: 20px;
+	width: 100%;
+	
+	
+}
+#third h2{
+	color: white;;
+
+}
+#third h4{
+	color: #ed1850;
+}
+#third p{
+	color: #a8a7aa;
+}
+.thirddesc{
+	margin-top: 140px;
+	margin-left: 60px;
+	text-align: center;
+	
+}
+/* Fourth Slide*/
+#fourth{
+	position: relative;
+	min-height: 100%;
+	padding-top: 30px;
+	width: 100%;
+	background: url(../img/gradient.png) no-repeat;
+	~webkit-background-size:cover;
+	~moz-background-size:cover;
+	~o-background-size:cover;
+	background-size: cover;
+}
+#fourth h2{
+	color: white;;
+
+}
+video { display: block; }
+
+#fourth p{
+	color: #a8a7aa;
+}
+/* .download a:hover{
+	box-shadow: grey;
+
+} */
+
+.fourthdesc{
+	text-align: center;
+	margin-top:180px; 
+}
+.footer{
+	text-align: center;
+	float: left;
+	margin-top: 40px;
+}
+.footer a{
+	margin: 30px;
+	font-size: 20px;
+	font-weight: 500;
+	color:#44505b;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.footer a:hover{
+	color:white;
+	text-decoration: none;
+}
+.bottomnav{
+
+	color:#44505b;
+	font-size: 22px;
+	margin-top: 70px;
+	padding-left:10px;
+	padding-right: 10px;
+	padding-bottom: 6px; 
+
+}
+.bottomnav a{
+	font-size: 22px;
+	color:#44505b;
+}
+.bottomnav a:hover{
+	color:white;
+}
+svg{
+		width: 500px;
+		left:0%;
+		top:-35%;
+		height: auto;
+		z-index: -1;
+		position: absolute;
+	}
+
+/*Vertical Nav*/
+
+.cd-scroll-down {
+  position: absolute;
+  left: 50%;
+  right: auto;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+ /*  bottom: 20px;
+ width: 38px;
+ height: 44px; */
+  background: url("../img/cd-arrow-bottom.svg") no-repeat center center;
+}
+.parallax-window{
+	min-height: 400px;
+
+}
+.latched{
+	position: fixed;
+	top: 0;
+	width: auto;
+	transition:all linear 0.7s;
+
+} 
+/* No Touch devices */
+.cd-nav-trigger {
+  display: none;
+}
+
+ #cd-vertical-nav {
+  position: fixed;
+  right: 40px;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 999999;
+}
+ #cd-vertical-nav li {
+  text-align: right;
+  list-style-type: none;
+}
+ #cd-vertical-nav a {
+  display: inline-block;
+  /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+ #cd-vertical-nav a:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ #cd-vertical-nav a span {
+  float: right;
+  display: inline-block;
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+}
+ #cd-vertical-nav a:hover span {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+ #cd-vertical-nav a:hover .cd-label {
+  opacity: 1;
+}
+ #cd-vertical-nav a.is-selected .cd-dot {
+  background-color: #dfdfdf;
+}
+ #cd-vertical-nav .cd-dot {
+  position: relative;
+  /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
+  top: 8px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color:#4c657b;
+  -webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
+  -moz-transition: -moz-transform 0.2s, background-color 0.5s;
+  transition: transform 0.2s, background-color 0.5s;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
